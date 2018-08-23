@@ -31,10 +31,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
-
-import androidx.preference.Preference;
-import androidx.preference.PreferenceViewHolder;
-import androidx.preference.SwitchPreference;
+import androidx.preference.*;
 
 import com.aquarios.support.R;
 
@@ -170,8 +167,6 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
 
         view.setDividerAllowedAbove(false);
         //view.setDividerAllowedBelow(false);
-
-        mSeekBar.setEnabled(isEnabled());
     }
 
     private void showEditDialog() {
