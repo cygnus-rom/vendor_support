@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.abc.support.colorpicker;
+package com.aquarios.support.colorpicker;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -37,7 +37,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.abc.support.R;
+import com.aquarios.support.R;
 
 /**
  * A preference type that allows a user to choose a time

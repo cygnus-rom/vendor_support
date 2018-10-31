@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.abc.support.preferences;
+package com.aquarios.support.preferences;
 
 import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;

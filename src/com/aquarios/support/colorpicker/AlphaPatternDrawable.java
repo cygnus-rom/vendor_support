@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.abc.support.colorpicker;
+package com.aquarios.support.colorpicker;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The CyanogenMod project
+ * Copyright (C) 2015 The CyanogenMod project
  * Copyright (C) 2017 AICP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,27 +15,27 @@
  * limitations under the License.
  */
 
-package com.abc.support.preferences;
+package com.aquarios.support.preferences;
 
 import android.content.Context;
 import android.support.v14.preference.SwitchPreference;
 import android.util.AttributeSet;
 
-public class SecureSettingSwitchPreference extends SwitchPreference {
+public class GlobalSettingSwitchPreference extends SwitchPreference {
 
-    public SecureSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
+    public GlobalSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new GlobalSettingsStore(context.getContentResolver()));
     }
 
-    public SecureSettingSwitchPreference(Context context, AttributeSet attrs) {
+    public GlobalSettingSwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new GlobalSettingsStore(context.getContentResolver()));
     }
 
-    public SecureSettingSwitchPreference(Context context) {
+    public GlobalSettingSwitchPreference(Context context) {
         super(context);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new GlobalSettingsStore(context.getContentResolver()));
     }
 
     @Override

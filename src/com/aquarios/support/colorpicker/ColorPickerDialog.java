@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.abc.support.colorpicker;
+package com.aquarios.support.colorpicker;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -29,7 +29,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-import com.abc.support.R;
+import com.aquarios.support.R;
 
 public class ColorPickerDialog extends AlertDialog implements ColorPickerView.OnColorChangedListener, View.OnClickListener {
 
