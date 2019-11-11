@@ -19,19 +19,19 @@ package com.aquarios.support.preferences;
 import android.content.Context;
 import android.util.AttributeSet;
 
-public class SystemSeekBarPreference extends SeekBarPreferenceCham {
+public class CustomSystemSeekBarPreference extends CustomSeekBarPreference {
 
-    public SystemSeekBarPreference(Context context, AttributeSet attrs, int defStyle) {
+    public CustomSystemSeekBarPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSeekBarPreference(Context context, AttributeSet attrs) {
+    public CustomSystemSeekBarPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
         setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSeekBarPreference(Context context) {
+    public CustomSystemSeekBarPreference(Context context) {
         super(context, null);
         setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
