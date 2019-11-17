@@ -23,8 +23,11 @@
     </declare-styleable>
 
     <!-- Value to pass to callback when restore button is pressed -->
-    <declare-styleable name="ColorPreference">
-        <attr name="defaultColorValue" format="integer" />
+    <declare-styleable name="ColorPickerPreference">
+<!--    <attr name="ledPreview" format="boolean" />
+        <attr name="alphaSlider" format="boolean" />
+        <attr name="isledPicker" format="boolean" />
+TEMP REMOVAL--> 
     </declare-styleable>
 
 </resources>
