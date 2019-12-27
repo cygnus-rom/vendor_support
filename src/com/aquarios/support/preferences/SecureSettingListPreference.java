@@ -17,10 +17,9 @@
 package com.aquarios.support.preferences;
 
 import android.content.Context;
+import androidx.preference.ListPreference;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-
-import androidx.preference.SwitchPreference;
 
 public class SecureSettingListPreference extends ListPreference {
     private boolean mAutoSummary = false;
